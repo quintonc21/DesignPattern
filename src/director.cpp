@@ -12,6 +12,8 @@ void Director::makeSUV(Builder *builder){
     builder->setSeats(seats);
     builder->setTripComputer(tripComputer);
     builder->setGPS(gps);
+    builder->setSunroof(false);
+    builder->setColor("gray");
   }
   
   
@@ -24,6 +26,8 @@ void Director::makeSUV(Builder *builder){
     builder->setSeats(seats);
     builder->setTripComputer(tripComputer);
     builder->setGPS(gps);
+    builder->setSunroof(true);
+    builder->setColor("red");
   }
 
   void Director::makeLuxuryCar(Builder *builder){

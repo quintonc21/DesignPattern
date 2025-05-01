@@ -83,12 +83,12 @@
     ManualBuilder *mbuilder = new ManualBuilder();
     // Return the constructed objects for testing
     
-    director.makeSUV(cbuilder);
+    director.makeLuxuryCar(cbuilder);
     Car *luxuryCar = cbuilder->GetProduct();
     //luxuryCar->listFeatures(); // use
   
   
-    director.makeSUV(mbuilder);
+    director.makeLuxuryCar(mbuilder);
     Manual *luxuryManual = mbuilder->GetProduct();
     //luxuryManual->listFeatures(); // use
     
