@@ -1,0 +1,17 @@
+# Set the C++ standard to C++23
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+# used internally by CMake to identify your project
+project(DesignPattern)
+# Include the directory headers are located
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
+####################################################
+# Add the test executable
+add_executable(run test/test.cpp src/main.cpp src/clientcode.cpp src/car.cpp src/carbuilder.cpp src/director.cpp src/manual.cpp src/manualbuilder.cpp)
+# Include directories for the test target
+target_include_directories(run PRIVATE ${PROJECT_SOURCE_DIR}/include)
+# Enable testing
+enable_testing()
+# Register the test executable with CTest (optional)
+add_test(NAME my_test COMMAND my_test)
