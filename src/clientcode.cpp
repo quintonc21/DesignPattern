@@ -86,12 +86,12 @@
     director.makeSUV(cbuilder);
     Car *luxuryCar = cbuilder->GetProduct();
     //luxuryCar->listFeatures(); // use
-    delete luxuryCar;
+  
   
     director.makeSUV(mbuilder);
     Manual *luxuryManual = mbuilder->GetProduct();
     //luxuryManual->listFeatures(); // use
-    delete luxuryManual;
+    
   
     delete cbuilder;
     delete mbuilder;
