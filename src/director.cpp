@@ -25,6 +25,17 @@ void Director::makeSUV(Builder *builder){
     builder->setTripComputer(tripComputer);
     builder->setGPS(gps);
   }
+
+  void Director::makeLuxuryCar(Builder *builder){
+    std::string engine = "V8 Engine";
+    std::string seats = "4";
+    std::string tripComputer = "Luxury Trip Computer";
+    std::string gps = "Luxury GPS";
+    builder->setEngine(engine);
+    builder->setSeats(seats);
+    builder->setTripComputer(tripComputer);
+    builder->setGPS(gps);
+  }
   
   
   
