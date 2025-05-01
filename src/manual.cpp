@@ -6,7 +6,7 @@ void Manual::listFeatures() const {
     std::cout << "\n  Engine: " << engine;
     std::cout << "\n  Seats: " << seats;
     std::cout << "\n  TripComputer: " << tripComputer;
-    std::cout << "\n  GPS: " << gps << "\n";
-    std::cout << "\n  Car Color: " << color << "\n";
+    std::cout << "\n  GPS: " << gps;
+    std::cout << "\n  Car Color: " << color;
     std::cout << "\n  Has Sunroof: " << hasSunroof << "\n";
 }

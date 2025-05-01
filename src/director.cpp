@@ -40,7 +40,7 @@ void Director::makeSUV(Builder *builder){
     builder->setTripComputer(tripComputer);
     builder->setGPS(gps);
     builder->setSunroof(true);
-    builder->setColor("red");
+    builder->setColor("black");
   }
   
   
