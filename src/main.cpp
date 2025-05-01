@@ -16,8 +16,8 @@
     //ClientCode2(*director);
     //ClientCode3(*director);
     auto [luxuryCar, luxuryManual] = ClientCode4(*director);
-    std::cout << "Hello\n";
-    std::cout << luxuryCar->engine << "\n";
+    // std::cout << "Hello\n";
+    // std::cout << luxuryCar->engine << "\n";
   
     delete director;
   }
